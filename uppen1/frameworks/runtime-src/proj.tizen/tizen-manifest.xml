@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3" package="upen1" version="1.0.0">
+    <ui-application appid="upen1" exec="hellolua" type="capp" multiple="false" taskmanage="true" nodisplay="false">
+        <icon>com.mybo.upen1.png</icon>
+        <label>com.mybo.upen1</label>
+	</ui-application>
+</manifest>
