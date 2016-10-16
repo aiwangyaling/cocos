@@ -1,5 +1,5 @@
 
-#include "network/CCNetwork.h"
+#include "mybonetwork/CCNetwork.h"
 
 //NS_CC_EXTRA_BEGIN
 namespace mybo{

@@ -69,8 +69,8 @@
 		BB03E9F31DAF7E99009CC9A5 /* OpenUDIDIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9D71DAF7E99009CC9A5 /* OpenUDIDIOS.m */; };
 		BB03E9F41DAF7E99009CC9A5 /* CCNetworkIOSMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9D91DAF7E99009CC9A5 /* CCNetworkIOSMac.mm */; };
 		BB03E9F51DAF7E99009CC9A5 /* ReachabilityIOSMac.m in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9DB1DAF7E99009CC9A5 /* ReachabilityIOSMac.m */; };
-		BB03EA001DAF8486009CC9A5 /* CCHTTPRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9FB1DAF8486009CC9A5 /* CCHTTPRequest.cpp */; };
-		BB03EA011DAF8486009CC9A5 /* CCNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9FE1DAF8486009CC9A5 /* CCNetwork.cpp */; };
+		BB96EC051DB0E34200021C64 /* CCHTTPRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB96EC001DB0E34200021C64 /* CCHTTPRequest.cpp */; };
+		BB96EC061DB0E34200021C64 /* CCNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB96EC031DB0E34200021C64 /* CCNetwork.cpp */; };
 		C03781B918BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BA18BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BB18BF655400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03781B818BF655400FE4F13 /* src */; };
@@ -285,13 +285,13 @@
 		BB03E9E01DAF7E99009CC9A5 /* CCNativeMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCNativeMac.mm; sourceTree = "<group>"; };
 		BB03E9E21DAF7E99009CC9A5 /* OpenUDIDMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDIDMac.h; sourceTree = "<group>"; };
 		BB03E9E31DAF7E99009CC9A5 /* OpenUDIDMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDIDMac.m; sourceTree = "<group>"; };
-		BB03E9FB1DAF8486009CC9A5 /* CCHTTPRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCHTTPRequest.cpp; sourceTree = "<group>"; };
-		BB03E9FC1DAF8486009CC9A5 /* CCHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequest.h; sourceTree = "<group>"; };
-		BB03E9FD1DAF8486009CC9A5 /* CCHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequestDelegate.h; sourceTree = "<group>"; };
-		BB03E9FE1DAF8486009CC9A5 /* CCNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNetwork.cpp; sourceTree = "<group>"; };
-		BB03E9FF1DAF8486009CC9A5 /* CCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetwork.h; sourceTree = "<group>"; };
 		BB96EBED1DAFA90900021C64 /* CCAlertViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAlertViewDelegate.h; sourceTree = "<group>"; };
 		BB96EBEE1DAFA90900021C64 /* CCNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNative.h; sourceTree = "<group>"; };
+		BB96EC001DB0E34200021C64 /* CCHTTPRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCHTTPRequest.cpp; sourceTree = "<group>"; };
+		BB96EC011DB0E34200021C64 /* CCHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequest.h; sourceTree = "<group>"; };
+		BB96EC021DB0E34200021C64 /* CCHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		BB96EC031DB0E34200021C64 /* CCNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNetwork.cpp; sourceTree = "<group>"; };
+		BB96EC041DB0E34200021C64 /* CCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetwork.h; sourceTree = "<group>"; };
 		C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_lua_bindings.xcodeproj; path = "../../cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj"; sourceTree = "<group>"; };
 		C03781B718BF655400FE4F13 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
 		C03781B818BF655400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
@@ -581,19 +581,6 @@
 			path = openudid;
 			sourceTree = "<group>";
 		};
-		BB03E9FA1DAF8486009CC9A5 /* network */ = {
-			isa = PBXGroup;
-			children = (
-				BB03E9FB1DAF8486009CC9A5 /* CCHTTPRequest.cpp */,
-				BB03E9FC1DAF8486009CC9A5 /* CCHTTPRequest.h */,
-				BB03E9FD1DAF8486009CC9A5 /* CCHTTPRequestDelegate.h */,
-				BB03E9FE1DAF8486009CC9A5 /* CCNetwork.cpp */,
-				BB03E9FF1DAF8486009CC9A5 /* CCNetwork.h */,
-			);
-			name = network;
-			path = ../Classes/network;
-			sourceTree = "<group>";
-		};
 		BB96EBEC1DAFA90900021C64 /* native */ = {
 			isa = PBXGroup;
 			children = (
@@ -602,6 +589,19 @@
 			);
 			name = native;
 			path = ../Classes/native;
+			sourceTree = "<group>";
+		};
+		BB96EBFF1DB0E34200021C64 /* mybonetwork */ = {
+			isa = PBXGroup;
+			children = (
+				BB96EC001DB0E34200021C64 /* CCHTTPRequest.cpp */,
+				BB96EC011DB0E34200021C64 /* CCHTTPRequest.h */,
+				BB96EC021DB0E34200021C64 /* CCHTTPRequestDelegate.h */,
+				BB96EC031DB0E34200021C64 /* CCNetwork.cpp */,
+				BB96EC041DB0E34200021C64 /* CCNetwork.h */,
+			);
+			name = mybonetwork;
+			path = ../Classes/mybonetwork;
 			sourceTree = "<group>";
 		};
 		C03781AF18BF654500FE4F13 /* Products */ = {
@@ -672,8 +672,8 @@
 		F293BB7C15EB830F00256477 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BB96EBFF1DB0E34200021C64 /* mybonetwork */,
 				BB96EBEC1DAFA90900021C64 /* native */,
-				BB03E9FA1DAF8486009CC9A5 /* network */,
 				BB03E9BB1DAF7E99009CC9A5 /* platform */,
 				BB03E9B51DAF7E91009CC9A5 /* luabindings */,
 				BB03E9A91DAF7E89009CC9A5 /* crypto */,
@@ -918,7 +918,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB03EA011DAF8486009CC9A5 /* CCNetwork.cpp in Sources */,
+				BB96EC061DB0E34200021C64 /* CCNetwork.cpp in Sources */,
 				BB03E9B41DAF7E89009CC9A5 /* md5.c in Sources */,
 				BB03E9F21DAF7E99009CC9A5 /* SBJsonWriter.m in Sources */,
 				5023812517EBBCAC00990C9B /* RootViewController.mm in Sources */,
@@ -926,7 +926,7 @@
 				BB03E9E81DAF7E99009CC9A5 /* CCCryptoIOS.mm in Sources */,
 				BB03E9B91DAF7E91009CC9A5 /* cocos2dx_extra_luabinding.cpp in Sources */,
 				F293BB9C15EB831F00256477 /* AppDelegate.cpp in Sources */,
-				BB03EA001DAF8486009CC9A5 /* CCHTTPRequest.cpp in Sources */,
+				BB96EC051DB0E34200021C64 /* CCHTTPRequest.cpp in Sources */,
 				BB03E9F51DAF7E99009CC9A5 /* ReachabilityIOSMac.m in Sources */,
 				BB03E9F41DAF7E99009CC9A5 /* CCNetworkIOSMac.mm in Sources */,
 				BB03E9F01DAF7E99009CC9A5 /* SBJsonBase.m in Sources */,

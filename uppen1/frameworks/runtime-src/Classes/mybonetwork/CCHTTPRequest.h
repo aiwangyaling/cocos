@@ -4,10 +4,10 @@
 
 //#include "cocos2dx_extra.h"
 #include "cocos2d.h"
-#include "network/CCHTTPRequestDelegate.h"
+#include "mybonetwork/CCHTTPRequestDelegate.h"
 
 #if CC_LUA_ENGINE_ENABLED > 0
-#include "CCLuaEngine.h"
+#include "scripting/lua-bindings/manual/CCLuaEngine.h"
 #endif
 
 #ifdef _WINDOWS_
@@ -21,11 +21,13 @@
 #include <map>
 #include <string>
 #if CC_TARGET_PLATFORM != CC_PLATFORM_ANDROID
-#include "curl/curl.h"
+#include "external/curl/include/ios/curl/curl.h"
 #endif
 
 using namespace std;
-//USING_NS_CC;
+
+USING_NS_CC;
+
 
 //NS_CC_EXTRA_BEGIN
 namespace mybo{
@@ -52,6 +54,7 @@ namespace mybo{
 
 typedef vector<string> HTTPRequestHeaders;
 typedef HTTPRequestHeaders::iterator HTTPRequestHeadersIterator;
+    
 
 class HTTPRequest : public Ref
 {

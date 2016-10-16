@@ -13,7 +13,9 @@ using namespace cocos2d;
 
 #include "crypto/CCCrypto.h"
 #include "native/CCNative.h"
-#include "network/CCNetwork.h"
+#include "mybonetwork/CCNetwork.h"
+#include "mybonetwork/CCHTTPRequest.h"
+#include "scripting/lua-bindings/manual/tolua_fix.h"
 using namespace std;
 using namespace cocos2d;
 //using namespace cocos2d::extra;
@@ -675,7 +677,7 @@ static int tolua_cocos2dx_extra_luabinding_HTTPRequest_createWithUrl00(lua_State
   const char* url = ((const char*)  tolua_tostring(tolua_S,3,0));
   int method = ((int)  tolua_tonumber(tolua_S,4,kCCHTTPRequestMethodGET));
   {
-   HTTPRequest* tolua_ret = (HTTPRequest*)  HTTPRequest::createWithUrlLua(listener,url,method);
+      mybo::HTTPRequest* tolua_ret = (HTTPRequest*)  HTTPRequest::createWithUrlLua(listener,url,method);
     tolua_pushusertype(tolua_S,(void*)tolua_ret,"HTTPRequest");
   }
  }

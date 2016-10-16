@@ -4,11 +4,11 @@
 
 
 
-//#include "cocos2dx_extra.h"
+#include "cocos2dx_extra.h"
 
-//NS_CC_EXTRA_BEGIN
+NS_CC_EXTRA_BEGIN
 
-namespace mybo{
+//namespace mybo{
 
 class HTTPRequest;
 
@@ -18,7 +18,7 @@ public:
     virtual void requestFinished(HTTPRequest* request) {}
     virtual void requestFailed(HTTPRequest* request) {}
 };
-}
-//NS_CC_EXTRA_END
+//}
+NS_CC_EXTRA_END
 
 #endif // __CC_EXTENSION_CCHTTP_REQUEST_DELEGATE_H_

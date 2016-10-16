@@ -2,7 +2,7 @@
 #ifndef __CC_HTTP_REQUEST_H_
 #define __CC_HTTP_REQUEST_H_
 
-//#include "cocos2dx_extra.h"
+#include "cocos2dx_extra.h"
 #include "cocos2d.h"
 #include "network/CCHTTPRequestDelegate.h"
 
@@ -25,9 +25,9 @@
 using namespace std;
 //USING_NS_CC;
 
-//NS_CC_EXTRA_BEGIN
+NS_CC_EXTRA_BEGIN
 using namespace cocos2d;
-namespace mybo{
+//namespace mybo{
 
 #define kCCHTTPRequestMethodGET                 0
 #define kCCHTTPRequestMethodPOST                1
@@ -222,7 +222,7 @@ private:
     static size_t writeHeaderCURL(void *buffer, size_t size, size_t nmemb, void *userdata);
     static int progressCURL(void *userdata, double dltotal, double dlnow, double ultotal, double ulnow);
 };
-}
-//NS_CC_EXTRA_END
+//}
+NS_CC_EXTRA_END
 
 #endif /* __CC_HTTP_REQUEST_H_ */
