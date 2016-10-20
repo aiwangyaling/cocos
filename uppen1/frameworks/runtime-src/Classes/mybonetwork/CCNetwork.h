@@ -3,8 +3,8 @@
 #define __CC_EXTENSION_CCNETWORK_H_
 
 #include "cocos2dx_extra.h"
-#include "network/CCHTTPRequest.h"
-#include "network/CCHTTPRequestDelegate.h"
+#include "mybonetwork/CCHTTPRequest.h"
+#include "mybonetwork/CCHTTPRequestDelegate.h"
 
 using namespace cocos2d;
 //NS_CC_EXTRA_BEGIN

@@ -5,8 +5,11 @@
 #import "platform/ios/openudid/OpenUDIDIOS.h"
 #import "AudioToolbox/AudioServices.h"
 
-NS_CC_EXTRA_BEGIN
+using namespace std;
 
+//NS_CC_EXTRA_BEGIN
+namespace mybo {
+    
 #pragma mark -
 #pragma mark activity indicator
 
@@ -101,5 +104,7 @@ void Native::showAlertLua(cocos2d::LUA_FUNCTION listener)
     [[NativeIOS sharedInstance] showAlertViewWithLuaListener:listener];
 }
 #endif
+    
+}
 
-NS_CC_EXTRA_END
+//NS_CC_EXTRA_END

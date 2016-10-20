@@ -68,9 +68,12 @@
 		BB03E9F21DAF7E99009CC9A5 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9D41DAF7E99009CC9A5 /* SBJsonWriter.m */; };
 		BB03E9F31DAF7E99009CC9A5 /* OpenUDIDIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9D71DAF7E99009CC9A5 /* OpenUDIDIOS.m */; };
 		BB03E9F41DAF7E99009CC9A5 /* CCNetworkIOSMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9D91DAF7E99009CC9A5 /* CCNetworkIOSMac.mm */; };
-		BB03E9F51DAF7E99009CC9A5 /* ReachabilityIOSMac.m in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9DB1DAF7E99009CC9A5 /* ReachabilityIOSMac.m */; };
 		BB96EC051DB0E34200021C64 /* CCHTTPRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB96EC001DB0E34200021C64 /* CCHTTPRequest.cpp */; };
 		BB96EC061DB0E34200021C64 /* CCNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB96EC031DB0E34200021C64 /* CCNetwork.cpp */; };
+		BB96EC071DB46CF700021C64 /* CCNative.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9C31DAF7E99009CC9A5 /* CCNative.mm */; };
+		BB96EC081DB46CFB00021C64 /* CCNativeIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9C51DAF7E99009CC9A5 /* CCNativeIOS.mm */; };
+		BB96EC091DB4715B00021C64 /* CCNetworkIOSMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9D91DAF7E99009CC9A5 /* CCNetworkIOSMac.mm */; };
+		BB96EC0B1DB8683800021C64 /* ReachabilityIOSMac.m in Sources */ = {isa = PBXBuildFile; fileRef = BB03E9DB1DAF7E99009CC9A5 /* ReachabilityIOSMac.m */; };
 		C03781B918BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BA18BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BB18BF655400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03781B818BF655400FE4F13 /* src */; };
@@ -908,6 +911,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07828FA18B4D72E00BD2287 /* SimulatorApp.mm in Sources */,
+				BB96EC091DB4715B00021C64 /* CCNetworkIOSMac.mm in Sources */,
 				5023813317EBBCE400990C9B /* AppDelegate.cpp in Sources */,
 				9FF504851A5E87B100AFDA55 /* ConsoleWindowController.m in Sources */,
 				C07828F818B4D72E00BD2287 /* main.m in Sources */,
@@ -920,14 +924,16 @@
 			files = (
 				BB96EC061DB0E34200021C64 /* CCNetwork.cpp in Sources */,
 				BB03E9B41DAF7E89009CC9A5 /* md5.c in Sources */,
+				BB96EC081DB46CFB00021C64 /* CCNativeIOS.mm in Sources */,
 				BB03E9F21DAF7E99009CC9A5 /* SBJsonWriter.m in Sources */,
 				5023812517EBBCAC00990C9B /* RootViewController.mm in Sources */,
 				BB03E9F31DAF7E99009CC9A5 /* OpenUDIDIOS.m in Sources */,
 				BB03E9E81DAF7E99009CC9A5 /* CCCryptoIOS.mm in Sources */,
 				BB03E9B91DAF7E91009CC9A5 /* cocos2dx_extra_luabinding.cpp in Sources */,
+				BB96EC0B1DB8683800021C64 /* ReachabilityIOSMac.m in Sources */,
 				F293BB9C15EB831F00256477 /* AppDelegate.cpp in Sources */,
 				BB96EC051DB0E34200021C64 /* CCHTTPRequest.cpp in Sources */,
-				BB03E9F51DAF7E99009CC9A5 /* ReachabilityIOSMac.m in Sources */,
+				BB96EC071DB46CF700021C64 /* CCNative.mm in Sources */,
 				BB03E9F41DAF7E99009CC9A5 /* CCNetworkIOSMac.mm in Sources */,
 				BB03E9F01DAF7E99009CC9A5 /* SBJsonBase.m in Sources */,
 				BB03E9B31DAF7E89009CC9A5 /* CCCrypto.cpp in Sources */,

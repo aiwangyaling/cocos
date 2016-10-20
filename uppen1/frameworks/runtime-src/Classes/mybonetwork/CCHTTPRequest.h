@@ -5,6 +5,7 @@
 //#include "cocos2dx_extra.h"
 #include "cocos2d.h"
 #include "mybonetwork/CCHTTPRequestDelegate.h"
+#include "mybonetwork/CCHTTPRequest.h"
 
 #if CC_LUA_ENGINE_ENABLED > 0
 #include "scripting/lua-bindings/manual/CCLuaEngine.h"

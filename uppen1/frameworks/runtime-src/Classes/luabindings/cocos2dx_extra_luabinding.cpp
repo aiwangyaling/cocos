@@ -21,6 +21,8 @@ using namespace cocos2d;
 //using namespace cocos2d::extra;
 using namespace mybo;
 
+
+
 /* function to release collected object via destructor */
 #ifdef __cplusplus
 

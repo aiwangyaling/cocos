@@ -8,7 +8,7 @@
 #if CC_LUA_ENGINE_ENABLED > 0
 #include "scripting/lua-bindings/manual/CCLuaEngine.h"
 #endif
-
+using namespace  cocos2d;
 //NS_CC_EXTRA_BEGIN
 namespace mybo{
 class Native

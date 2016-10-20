@@ -5,12 +5,12 @@
 #include "native/CCAlertViewDelegate.h"
 
 #if CC_LUA_ENGINE_ENABLED > 0
-#include "CCLuaEngine.h"
+#include "scripting/lua-bindings/manual/CCLuaEngine.h"
 #endif
 
 USING_NS_CC;
-USING_NS_CC_EXTRA;
-
+//USING_NS_CC_EXTRA;
+using namespace mybo;
 @interface NativeIOS : NSObject < UIAlertViewDelegate >
 {
     UIActivityIndicatorView *activityIndicatorView_;
