@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+target 'upen1-mobile' do
+    pod 'Fabric'
+end
+
+
